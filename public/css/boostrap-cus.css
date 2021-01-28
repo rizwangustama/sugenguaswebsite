@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+}
+
+
+.atas{
+    background-color:rgb(236, 236, 236);
+}
+
+.atas ul li a {
+    color: black;
+}
+
+.bawah .navbar{
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.bawah .container nav {
+    background: white;
+}
+
+.bawah .container nav img {
+    width: 60px;
+    height: 60px;
+}
+
+.bawah .container nav a {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.bawah-pisan .container .nav a{
+    color: black;
+    font-weight: bold;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.button-warna {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.button-warna button{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.banner2 {
+    width: 90%;
+    margin: auto;
+}
+.banner2 img {
+    width: 100%;
+}
+
+.penghargaan img{
+    width: 100%;
+}
