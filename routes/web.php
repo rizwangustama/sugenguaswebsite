@@ -11,9 +11,24 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+// Route::get('/', function () {
+//     return view('pages.home.homepage');
+// });
+
+Route::prefix('/')
+    ->namespace('Home')
+    ->group(function() {
+        Route::resource('/', 'HomepageController');
+    });
+
+Route::prefix('home')
+    ->namespace('Admin')
+    ->group(function(){
+        Route::resource('/', 'DashboardController');
+        Route::resource('/news', 'NewsController');
+
+    });
+
 
 Auth::routes();
 
